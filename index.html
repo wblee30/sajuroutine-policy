@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>사주루틴 개인정보처리방침</title>
+<style>
+  /* 어떤 브라우저에서 열어도 동일하게 보이도록 라이트 고정 */
+  :root {
+    --bg: #FFFFFF;
+    --ink: #222222;
+    --ink-strong: #000000;
+    --muted: #666666;
+    --accent: #3F4BCF;
+    --line: #E3E5F2;
+    color-scheme: light only;
+  }
+  html, body { background: var(--bg) !important; }
+  body { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px;
+         font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+         line-height: 1.75; color: var(--ink); word-break: keep-all; }
+  h1 { font-size: 24px; border-bottom: 2px solid var(--accent);
+       padding-bottom: 12px; color: var(--ink-strong); }
+  h2 { font-size: 18px; margin-top: 32px; color: var(--accent); }
+  h3 { font-size: 15px; margin-top: 20px; color: var(--ink-strong); }
+  .date { color: var(--muted); font-size: 14px; }
+  a { color: var(--accent); }
+  strong { color: var(--ink-strong); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 8px 0; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #F5F6FC; width: 30%; color: var(--ink-strong); font-weight: 600; }
+  .note { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>사주루틴 개인정보처리방침</h1>
+<p class="date">시행일: 2026년 9월 27일</p>
+<p>사주루틴(이하 "앱")은 이용자의 개인정보를 소중히 여기며, 「개인정보 보호법」 등 관련 법령을 준수합니다. 본 방침은 앱이 어떤 정보를 어떻게 다루는지 설명합니다.</p>
+<p><strong>앱은 회원가입·로그인 기능이 없고, 개발자가 운영하는 서버도 없습니다.</strong> 이용자가 입력한 정보는 이용자의 기기에 저장되며, 아래 2항의 AI 풀이 기능을 위해서만 외부로 전송됩니다.</p>
+
+<h2>1. 처리하는 개인정보 항목과 목적</h2>
+<table>
+  <tr><th>항목</th><th>목적</th></tr>
+  <tr><td>이름(또는 별칭), 성별, 생년월일, 태어난 시각(선택)</td><td>사주팔자·오행 계산, 오늘의 운세 표시, AI 사주 풀이 생성</td></tr>
+  <tr><td>AI에게 한 질문 내용</td><td>질문에 대한 AI 답변 생성</td></tr>
+  <tr><td>구매 여부(프리미엄 이용 상태), 보상형 광고로 열린 기능의 당일 이용 기록</td><td>프리미엄 기능 제공, 무료 이용 한도 관리</td></tr>
+</table>
+<p>사주팔자·오행·오늘의 운세는 <strong>기기 안에서 계산</strong>되며 외부로 전송되지 않습니다. 이름은 결과 화면 표시용이므로 실명 대신 별칭을 입력해도 됩니다.</p>
+
+<h2>2. 개인정보의 국외 이전 (AI 풀이)</h2>
+<p>앱은 AI 사주 풀이와 AI 질문 답변을 만들기 위해 Google의 Gemini API를 이용하며, 이 과정에서 아래와 같이 정보가 국외로 이전됩니다. 이는 이용자가 요청한 서비스를 제공하기 위해 필요한 처리입니다.</p>
+<table>
+  <tr><th>이전받는 자</th><td>Google LLC (Gemini API)</td></tr>
+  <tr><th>이전되는 국가</th><td>미국 등 Google 데이터센터 소재 국가</td></tr>
+  <tr><th>이전 항목</th><td>이름(또는 별칭), 성별, 생년월일·태어난 시각, 앱이 계산한 사주 정보(간지·오행 등), AI 질문 내용</td></tr>
+  <tr><th>이전 시기와 방법</th><td>프로필을 등록한 뒤 AI 풀이를 불러올 때, 그리고 AI에게 질문할 때 암호화된 통신(HTTPS)으로 전송</td></tr>
+  <tr><th>이용 목적</th><td>AI 사주 풀이 및 질문 답변 생성</td></tr>
+  <tr><th>보유·이용 기간</th><td>Google의 Gemini API 약관 및 개인정보처리방침에 따름</td></tr>
+</table>
+<p>전송된 정보는 <a href="https://ai.google.dev/gemini-api/terms">Gemini API 추가 서비스 약관</a>과 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에 따라 처리됩니다. 약관에 따라 Google이 서비스 제공·개선을 위해 해당 내용을 이용할 수 있습니다.</p>
+<p>이용자는 국외 이전을 원하지 않을 경우 AI 풀이·AI 질문 기능을 이용하지 않을 수 있습니다. 이 경우에도 사주팔자·오행·오늘의 운세는 기기 안에서 계산되어 이용할 수 있습니다. 이미 받은 AI 풀이는 "내 정보 → AI 풀이 캐시 지우기"로 기기에서 삭제할 수 있습니다.</p>
+
+<h2>3. 자동으로 수집될 수 있는 정보</h2>
+<h3>광고 (Google AdMob)</h3>
+<p>앱은 Google AdMob 광고(배너, 전면 광고, 보상형 광고)를 게재합니다. 이 과정에서 Google이 광고 게재·측정·부정 방지를 위해 다음 정보를 자동 수집할 수 있습니다.</p>
+<ul>
+  <li>광고 ID (Advertising ID)</li>
+  <li>기기 정보(모델, OS 버전 등), IP 주소 기반의 대략적인 위치, 광고 노출·클릭 기록</li>
+</ul>
+<p>이 정보는 <a href="https://policies.google.com/technologies/ads">Google 광고 정책</a>과 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에 따라 처리됩니다. 광고 ID는 기기 설정(설정 → Google → 광고, 또는 설정 → 개인정보 보호 → 광고)에서 재설정하거나 삭제할 수 있습니다. 유럽경제지역(EEA)·영국 등 동의가 필요한 지역의 이용자에게는 앱 실행 시 맞춤 광고 동의 여부를 묻습니다.</p>
+<h3>결제 (Google Play)</h3>
+<p>프리미엄 구매는 Google Play 결제로 처리됩니다. 카드 번호 등 결제 정보는 Google이 처리하며 앱은 이를 받지 않습니다. 앱은 구매 여부만 기기에 저장합니다.</p>
+
+<h2>4. 개인정보의 보유 및 파기</h2>
+<ul>
+  <li>이용자가 입력한 프로필 정보와 AI 풀이 결과는 <strong>이용자 기기에만 저장</strong>되며, 이용자가 삭제할 때까지 보관됩니다.</li>
+  <li>파기 방법: "내 정보"에서 프로필을 삭제하거나 "AI 풀이 캐시 지우기"를 누르면 즉시 삭제되며, 앱을 삭제하면 모든 데이터가 함께 삭제됩니다.</li>
+  <li>앱 개발자는 이용자의 정보를 별도로 수집·보관하지 않습니다.</li>
+</ul>
+
+<h2>5. 개인정보의 제3자 제공</h2>
+<p>앱은 이용자의 개인정보를 제3자에게 판매하거나 제공하지 않습니다. 위 2항(Google Gemini API)과 3항(Google AdMob, Google Play 결제)에서 설명한 서비스 제공 과정의 처리는 예외입니다.</p>
+
+<h2>6. 아동의 개인정보</h2>
+<p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다.</p>
+
+<h2>7. 이용자의 권리와 행사 방법</h2>
+<p>이용자는 언제든지 앱 안에서 자신의 정보를 조회·수정·삭제할 수 있습니다. 프로필 삭제, AI 풀이 캐시 지우기, 앱 삭제로 기기 내 정보를 완전히 제거할 수 있습니다. Google로 전송된 정보나 광고 관련 권리에 대해서는 Google의 개인정보처리방침과 기기 설정을 통해 행사할 수 있으며, 그 밖의 문의는 아래 문의처로 연락해 주시기 바랍니다.</p>
+
+<h2>8. 개인정보의 안전성 확보 조치</h2>
+<ul>
+  <li>외부 전송은 모두 암호화된 통신(HTTPS)으로 이루어집니다.</li>
+  <li>개발자 서버를 운영하지 않아 이용자 정보가 한곳에 모이지 않습니다.</li>
+  <li>AI 풀이에는 필요한 최소한의 정보만 전송합니다.</li>
+</ul>
+
+<h2>9. 개인정보처리방침의 변경</h2>
+<p>본 방침이 변경되는 경우 시행일과 함께 본 페이지를 통해 고지하며, 중요한 변경은 앱 업데이트 안내로도 알립니다.</p>
+
+<h2>10. 개인정보 보호책임자 및 문의처</h2>
+<p>개발자: rising91<br>
+개인정보 관련 문의: <a href="mailto:wblee30@gmail.com">wblee30@gmail.com</a></p>
+<p class="note">개인정보 침해에 대한 신고·상담은 개인정보침해신고센터(국번 없이 118, privacy.kisa.or.kr) 또는 개인정보분쟁조정위원회(1833-6972, kopico.go.kr)에 문의할 수 있습니다.</p>
+</body>
+</html>
